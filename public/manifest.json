@@ -1,0 +1,17 @@
+{
+  "name": "SS Self Drive and Rentals",
+  "short_name": "SS Self Drive",
+  "description": "Hyderabad's premium self-drive car rental",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#CC0000",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

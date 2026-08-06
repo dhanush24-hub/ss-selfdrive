@@ -18,7 +18,18 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "SS Self Drive — Hyderabad's Premium Self-Drive",
-  description: "Rent Hyderabad's most meticulously maintained Hyundai Grand i10. Exclusive self-drive experience.",
+  description: "Rent Hyderabad's most meticulously maintained Hyundai Grand i10. Book online now.",
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
+  manifest: '/manifest.json',
+  other: {
+    'theme-color': '#CC0000',
+  },
 };
 
 export default function RootLayout({
