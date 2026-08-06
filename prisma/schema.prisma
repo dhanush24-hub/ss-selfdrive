@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Booking {
+  id              String        @id @default(cuid())
+  customerName    String
+  phone           String
+  email           String
+  startDate       DateTime      @db.Date
+  endDate         DateTime      @db.Date
+  totalDays       Int
+  basePricePerDay Float         @default(999)
+  discountAmount  Float         @default(0)
+  discountReason  String?
+  finalAmount     Float
+  isFirstRide     Boolean       @default(false)
+  status          BookingStatus @default(PENDING)
+  notes           String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([startDate, endDate])
+  @@index([status])
+}
+
+model ContactSubmission {
+  id            String    @id @default(cuid())
+  name          String
+  phone         String
+  email         String
+  preferredDate DateTime? @db.Date
+  message       String
+  createdAt     DateTime  @default(now())
+}
+
+model BlockedDate {
+  id        String   @id @default(cuid())
+  date      DateTime @db.Date
+  reason    String?
+  createdAt DateTime @default(now())
+
+  @@unique([date])
+  @@index([date])
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}

@@ -1,0 +1,127 @@
+ESLint Report
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\next.config.ts
+  [1, 33] Strings must use singlequote. (quotes)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\lib\prisma.ts
+  [2, 25] Unexpected any. Specify a different type. (@typescript-eslint/no-explicit-any)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\lib\pricing.ts
+  [8, 14] No magic number: 1000. (no-magic-numbers)
+  [8, 21] No magic number: 60. (no-magic-numbers)
+  [8, 26] No magic number: 60. (no-magic-numbers)
+  [8, 31] No magic number: 24. (no-magic-numbers)
+  [16, 33] No magic number: 0.15. (no-magic-numbers)
+  [23, 36] No magic number: 7. (no-magic-numbers)
+  [24, 17] No magic number: 500. (no-magic-numbers)
+  [29, 20] No magic number: 3. (no-magic-numbers)
+  [30, 39] No magic number: 0.5. (no-magic-numbers)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\proxy.ts
+  [3, 23] 'req' is defined but never used. (no-unused-vars)
+  [3, 23] 'req' is defined but never used. (@typescript-eslint/no-unused-vars)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\contact\route.ts
+  [1, 30] Strings must use singlequote. (quotes)
+  [2, 24] Strings must use singlequote. (quotes)
+  [4, 8] Async function 'POST' has a complexity of 7. Maximum allowed is 6. (complexity)
+  [9, 59] Strings must use singlequote. (quotes)
+  [24, 57] Strings must use singlequote. (quotes)
+  [30, 41] Strings must use singlequote. (quotes)
+  [32, 41] Strings must use singlequote. (quotes)
+  [41, 39] Strings must use singlequote. (quotes)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\bookings\[id]\route.ts
+  [1, 30] Strings must use singlequote. (quotes)
+  [2, 24] Strings must use singlequote. (quotes)
+  [7, 41] Strings must use singlequote. (quotes)
+  [9, 41] Strings must use singlequote. (quotes)
+  [21, 39] Strings must use singlequote. (quotes)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\bookings\route.ts
+  [1, 30] Strings must use singlequote. (quotes)
+  [2, 24] Strings must use singlequote. (quotes)
+  [6, 41] Strings must use singlequote. (quotes)
+  [8, 41] Strings must use singlequote. (quotes)
+  [17, 39] Strings must use singlequote. (quotes)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\bookings\create\route.ts
+  [1, 30] Strings must use singlequote. (quotes)
+  [2, 24] Strings must use singlequote. (quotes)
+  [3, 32] Strings must use singlequote. (quotes)
+  [5, 8] Async function 'POST' has a complexity of 8. Maximum allowed is 6. (complexity)
+  [11, 59] Strings must use singlequote. (quotes)
+  [29, 59] Strings must use singlequote. (quotes)
+  [63, 57] Strings must use singlequote. (quotes)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\admin\blocked-dates\[date]\route.ts
+  [8, 36] No magic number: 7. (no-magic-numbers)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\admin\blocked-dates\route.ts
+  [8, 36] No magic number: 7. (no-magic-numbers)
+
+File: c:\Users\venugopal\Downloads\webs\ss-selfdrive\app\api\bookings\check-availability\route.ts
+  [1, 30] Strings must use singlequote. (quotes)
+  [2, 24] Strings must use singlequote. (quotes)
+  [8, 61] Strings must use singlequote. (quotes)
+  [26, 61] Strings must use singlequote. (quotes)
+  [45, 59] Strings must use singlequote. (quotes)
+
+File: c:\Users\venugopal\AppData\Roaming\Code\User\settings.json
+  [2, 5] Strings must use singlequote. (quotes)
+  [3, 5] Strings must use singlequote. (quotes)
+  [4, 5] Strings must use singlequote. (quotes)
+  [4, 32] Strings must use singlequote. (quotes)
+  [5, 5] Strings must use singlequote. (quotes)
+  [6, 5] Strings must use singlequote. (quotes)
+  [6, 48] Strings must use singlequote. (quotes)
+  [7, 5] Strings must use singlequote. (quotes)
+  [8, 9] Strings must use singlequote. (quotes)
+  [8, 24] Strings must use singlequote. (quotes)
+  [9, 9] Strings must use singlequote. (quotes)
+  [9, 30] Strings must use singlequote. (quotes)
+  [10, 9] Strings must use singlequote. (quotes)
+  [10, 18] Strings must use singlequote. (quotes)
+  [12, 5] Strings must use singlequote. (quotes)
+  [12, 23] Strings must use singlequote. (quotes)
+  [13, 5] Strings must use singlequote. (quotes)
+  [14, 5] Strings must use singlequote. (quotes)
+  [14, 36] Strings must use singlequote. (quotes)
+  [15, 5] Strings must use singlequote. (quotes)
+  [15, 36] Strings must use singlequote. (quotes)
+  [16, 5] Strings must use singlequote. (quotes)
+  [16, 36] Strings must use singlequote. (quotes)
+  [17, 5] Strings must use singlequote. (quotes)
+  [18, 5] Strings must use singlequote. (quotes)
+  [18, 53] Strings must use singlequote. (quotes)
+  [19, 5] Strings must use singlequote. (quotes)
+  [19, 25] Strings must use singlequote. (quotes)
+  [20, 5] Strings must use singlequote. (quotes)
+  [20, 32] Strings must use singlequote. (quotes)
+  [21, 5] Strings must use singlequote. (quotes)
+  [22, 5] Strings must use singlequote. (quotes)
+  [22, 24] Strings must use singlequote. (quotes)
+  [23, 5] Strings must use singlequote. (quotes)
+  [24, 5] Strings must use singlequote. (quotes)
+  [25, 9] Strings must use singlequote. (quotes)
+  [26, 13] Strings must use singlequote. (quotes)
+  [26, 23] Strings must use singlequote. (quotes)
+  [27, 13] Strings must use singlequote. (quotes)
+  [27, 21] Strings must use singlequote. (quotes)
+  [29, 9] Strings must use singlequote. (quotes)
+  [30, 13] Strings must use singlequote. (quotes)
+  [30, 21] Strings must use singlequote. (quotes)
+  [31, 13] Strings must use singlequote. (quotes)
+  [33, 9] Strings must use singlequote. (quotes)
+  [34, 13] Strings must use singlequote. (quotes)
+  [34, 23] Strings must use singlequote. (quotes)
+  [35, 13] Strings must use singlequote. (quotes)
+  [35, 21] Strings must use singlequote. (quotes)
+  [38, 5] Strings must use singlequote. (quotes)
+  [38, 51] Strings must use singlequote. (quotes)
+  [39, 5] Strings must use singlequote. (quotes)
+  [40, 5] Strings must use singlequote. (quotes)
+  [40, 29] Strings must use singlequote. (quotes)
+  [41, 5] Strings must use singlequote. (quotes)
+  [42, 5] Strings must use singlequote. (quotes)
+
