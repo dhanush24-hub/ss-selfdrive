@@ -12,7 +12,6 @@
 4. npx prisma generate
 5. npm run dev
 6. Open http://localhost:3000
-7. Admin panel: http://localhost:3000/admin  (password: ssadmin2025)
 
 ## Replace Before Launch
 - Hero car image → real Grand i10 photo
